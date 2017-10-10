@@ -15,7 +15,7 @@ dependencies {
 	compile group: "org.jetbrains.kotlin", name: "kotlin-stdlib", version: kotlin_version
 	compile group: "org.jetbrains.kotlin", name: "kotlin-stdlib-jre8", version: kotlin_version
 
-	compile group: "net.shadowfacts", name: "krypton", version: krypton_version
+	compile group: "net.shadowfacts.krypton", name: "krypton", version: krypton_version
 
 	compile group: "com.atlassian.commonmark", name: "commonmark", version: "0.10.0"
 }
