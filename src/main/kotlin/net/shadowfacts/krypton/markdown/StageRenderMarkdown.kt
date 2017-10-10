@@ -16,6 +16,9 @@ class StageRenderMarkdown: Stage() {
 	private val parser = Parser.builder().build()
 	private val renderer = HtmlRenderer.builder().build()
 
+	override fun scan(page: Page) {
+	}
+
 	override fun apply(page: Page, input: String): String {
 		page.output = page.output.withExtension("html")
 		return renderer.render(parser.parse(input))
