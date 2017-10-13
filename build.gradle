@@ -17,7 +17,12 @@ dependencies {
 
 	compile group: "net.shadowfacts.krypton", name: "krypton", version: krypton_version
 
-	compile group: "com.atlassian.commonmark", name: "commonmark", version: "0.10.0"
+	compile group: "com.atlassian.commonmark", name: "commonmark", version: commonmark_version
+	compile group: "com.atlassian.commonmark", name: "commonmark-ext-autolink", version: commonmark_version
+	compile group: "com.atlassian.commonmark", name: "commonmark-ext-gfm-strikethrough", version: commonmark_version
+	compile group: "com.atlassian.commonmark", name: "commonmark-ext-gfm-tables", version: commonmark_version
+	compile group: "com.atlassian.commonmark", name: "commonmark-ext-heading-anchor", version: commonmark_version
+	compile group: "com.atlassian.commonmark", name: "commonmark-ext-ins", version: commonmark_version
 }
 
 configurations.all {
